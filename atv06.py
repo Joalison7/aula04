@@ -2,6 +2,8 @@ media = 0
 
 for x in range(5):
     num = int(input("fale seus numeros: "))
-    media = media + num/5
+    media = media + num
 
-print(f"{media}")
+dv = media/5
+
+print(f"{dv}")
